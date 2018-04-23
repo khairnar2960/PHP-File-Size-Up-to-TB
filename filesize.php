@@ -21,5 +21,5 @@ $type=" GB";
 $fsize=$a/$tb;
 $type=" TB";
 }
-echo sprintf('%0.2f' ,$fsize).$type;
+echo sprintf('%0.2f' ,$fsize).$type; //this gives an size upto 2decimal places with an size notation Byte,KB,MB,GB or TB
 ?>
